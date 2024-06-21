@@ -1,0 +1,7 @@
+{
+    "required_field": "Required",
+    "name_field_max_length": "Name cannot be longer than {{length}} characters",
+    "name_field_allowed_chars": "Name can contain only lowercase, uppercase and number characters",
+    "name_field_already_used": "This name is already in use",
+    "email_field_valid": "Email must be a valid email"
+}

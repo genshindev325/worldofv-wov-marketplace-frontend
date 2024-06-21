@@ -1,0 +1,87 @@
+[
+    {
+        "inputs": [
+            { "internalType": "address", "name": "_nft", "type": "address" },
+            {
+                "internalType": "uint256",
+                "name": "_tokenId",
+                "type": "uint256"
+            },
+            { "internalType": "uint256", "name": "_price", "type": "uint256" },
+            {
+                "internalType": "uint256",
+                "name": "_startingTime",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_duration",
+                "type": "uint256"
+            },
+            { "internalType": "bool", "name": "_isVIP180", "type": "bool" },
+            {
+                "internalType": "address",
+                "name": "_addressVIP180",
+                "type": "address"
+            }
+        ],
+        "name": "createTokenAuction",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_auctionId",
+                "type": "uint256"
+            },
+            { "internalType": "address", "name": "_nft", "type": "address" },
+            {
+                "internalType": "uint256",
+                "name": "_tokenId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_bidValue",
+                "type": "uint256"
+            }
+        ],
+        "name": "bid",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_auctionId",
+                "type": "uint256"
+            },
+            { "internalType": "address", "name": "_nft", "type": "address" },
+            { "internalType": "uint256", "name": "_tokenId", "type": "uint256" }
+        ],
+        "name": "executeSale",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_auctionId",
+                "type": "uint256"
+            },
+            { "internalType": "address", "name": "_nft", "type": "address" },
+            { "internalType": "uint256", "name": "_tokenId", "type": "uint256" }
+        ],
+        "name": "cancelAuction",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

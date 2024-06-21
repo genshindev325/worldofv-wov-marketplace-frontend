@@ -1,0 +1,98 @@
+@use "sass:math";
+@use "sass:list";
+@import "reset";
+@import "variables";
+@import "icons";
+@import "aspect-ratio";
+@import "nprogress/nprogress.css";
+@import "react-toastify/dist/ReactToastify.css";
+@import "rc-slider/assets/index.css";
+@import "tippy.js/dist/tippy.css";
+
+body {
+    background: #fcfcfd;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: math.div(24, 14);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #23262f;
+
+    [data-theme="dark"] & {
+        background-color: list.nth($neutrals, 2);
+        color: list.nth($neutrals, 8);
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+        color: $blue;
+    }
+}
+
+svg,
+img {
+    vertical-align: middle;
+}
+
+.collapse-css-transition {
+    transition: height 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Modal__Backdrop-exit-active {
+    opacity: 0;
+    transition: opacity 700ms ease-out;
+}
+
+.ui.placeholder,
+.ui.placeholder .image.header:after,
+.ui.placeholder .line,
+.ui.placeholder .line:after,
+.ui.placeholder > :before {
+    [data-theme="dark"] body & {
+        background-color: list.nth($neutrals, 3) !important;
+    }
+}
+
+#nprogress {
+    .bar {
+        background-color: $blue;
+        height: 3px;
+    }
+
+    .peg {
+        box-shadow: 0 0 10px $blue, 0 0 5px $blue;
+    }
+
+    .spinner-icon {
+        border-top-color: $blue;
+        border-left-color: $blue;
+    }
+}
+
+.Toastify__toast {
+    &,
+    &.Toastify__toast-theme--light {
+        background: list.nth($neutrals, 9);
+    }
+
+    [data-theme="dark"] body & {
+        background: list.nth($neutrals, 3);
+    }
+}
+
+.tf-v1-popover-tooltip-text {
+    color: list.nth($neutrals, 1);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}

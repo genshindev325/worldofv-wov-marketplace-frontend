@@ -1,0 +1,48 @@
+import React, { useContext, useState } from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+import {
+    BatchSelectProvider,
+    TokenBatchSelectContext,
+} from "../../../providers/BatchSelectProvider";
+import { ModalBatchSale } from "./ModalBatchSale";
+import { useMockUser } from "../../../mocks/useMockUser";
+
+// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+export default {
+    title: "components/batch-actions/ModalBatchSale",
+    component: ModalBatchSale,
+    argTypes: {},
+} as ComponentMeta<typeof ModalBatchSale>;
+
+const Child = () => {
+    // const { setSelecting } = useContext(TokenBatchSelectContext);
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    return (
+        <>
+            <header>I&apos;m the header</header>
+            <button
+                onClick={() => {
+                    setIsOpen(true);
+                }}
+            >
+                Open modal
+            </button>
+            <ModalBatchSale isOpen={isOpen} setIsOpen={setIsOpen} />
+        </>
+    );
+};
+
+export const Default: ComponentStory<typeof ModalBatchSale> = () => {
+    useMockUser();
+
+    return (
+        <BatchSelectProvider
+            context={TokenBatchSelectContext}
+            getId={(t) => t.tokenId}
+        >
+            <Child />
+        </BatchSelectProvider>
+    );
+};

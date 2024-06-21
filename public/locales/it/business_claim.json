@@ -1,0 +1,54 @@
+{
+    "claim_your": "Ricevi l'NFT",
+    "connect_button_label": "Connettiti",
+    "claim_button_label": "Riscatta ora",
+    "fees_paid_by": "Tariffe del gas pagate da World of V",
+    "single_mint_message": "Il tuo NFT è stato già riscattato",
+    "goto_profile_button_label": "Vai al tuo Profilo",
+    "goto_dashboard_button_label": "Vai alla Dashboard Fedeltà",
+    "login_modal": {
+        "title": "Benvenuto nel programma fedeltà NFT!",
+        "subtitle": "Per ottenerlo, effettua il login tramite i tuoi account social."
+    },
+    "countdown": {
+        "first_line": "Secondi",
+        "second_line": "rimasti"
+    },
+    "minting_modal": {
+        "title": "La transazione è in corso",
+        "subtitle": "Attendi qualche istante per la conferma della transazione",
+        "success_message": "CONGRATULAZIONI!"
+    },
+    "registration_form": {
+        "tx_comment": "Ricevi l'NFT",
+        "title": "Compila i seguenti campi:",
+        "first_name_input_label": "Nome",
+        "first_name_input_placeholder": "p.es. \"Marco\"",
+        "last_name_input_label": "Cognome",
+        "last_name_input_placeholder": "p.es. \"Rossi\"",
+        "nickname_input_label": "Nome utente",
+        "email_input_label": "Indirizzo e-mail",
+        "submit_button_label": "Riscatta",
+        "you_agree_to": "Procedendo accetti le nostre",
+        "privacy_policy": "Regole Sulla Privacy",
+        "errors": {
+            "existing_email": "Email già registrata",
+            "wrong_code": "Codice segreto errato",
+            "used_code": "Codice già utilizzato"
+        }
+    },
+    "tutorial": {
+        "step_one": {
+            "line_one": "Per iniziare, effettua il login tramite i tuoi",
+            "line_two": "account social",
+            "line_three": "o tramite il wallet ufficiale",
+            "line_four": "e connetti a World of V"
+        },
+        "step_two": "Riscatta l’NFT inserendo i tuoi dati personali e il codice segreto",
+        "step_three": "Ora sei pronto a riscattare il tuo NFT gratuito! Clicca su \"Invia\" all'interno del form e completa la transazione",
+        "step_four": {
+            "line_one": "Scopri il tuo NFT gratuito cliccando su “Vai al tuo profilo” o nella sezione \"Collected\" del tuo",
+            "line_two": "profilo World of V!"
+        }
+    }
+}

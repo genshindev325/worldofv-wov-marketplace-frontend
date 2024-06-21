@@ -1,0 +1,7 @@
+{
+    "required_field": "Campo obbligatorio",
+    "name_field_max_length": "Il nome non può superare i {{length}} caratteri",
+    "name_field_allowed_chars": "Il nome può contenere solo caratteri alfabetici maiuscoli e minuscoli e caratteri numerici",
+    "name_field_already_used": "Questo nome utente è già in uso",
+    "email_field_valid": "Inserisci un indirizzo email valido"
+}

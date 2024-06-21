@@ -1,0 +1,18 @@
+{
+    "name": "Node.js",
+
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-16-bullseye",
+
+    "runArgs": ["--network=host"], // Use host networking to make connection to local backend easier
+
+    "remoteUser": "node",
+
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "styled-components.vscode-styled-components",
+        "apollographql.vscode-apollo"
+    ],
+
+    "otherPortsAttributes": { "onAutoForward": "ignore" }
+}

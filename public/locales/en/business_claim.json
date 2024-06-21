@@ -1,0 +1,55 @@
+{
+    "claim_your": "Claim your",
+    "connect_button_label": "Connect",
+    "claim_button_label": "Claim now",
+    "fees_paid_by": "Gas Fees Paid by World of V",
+    "single_mint_message": "Your NFT was already claimed",
+    "goto_profile_button_label": "Go to Profile",
+    "goto_dashboard_button_label": "Go to Loyalty Dashboard",
+    "login_modal": {
+        "title": "Welcome to the NFT Loyalty Program!",
+        "subtitle": "To get started, please log in using one of your social media accounts below."
+    },
+    "countdown": {
+        "first_line": "Remaining",
+        "second_line": "seconds"
+    },
+    "minting_modal": {
+        "title": "The transaction is on the way",
+        "subtitle": "Wait just a few moments for the transaction to be confirmed",
+        "success_message": "Congratulations!"
+    },
+    "registration_form": {
+        "tx_comment": "Claim your NFT",
+        "title": "Please fill out the form below",
+        "first_name_input_label": "First name",
+        "first_name_input_placeholder": "e.g. John",
+        "last_name_input_label": "Surname",
+        "last_name_input_placeholder": "e.g. Smith",
+        "nickname_input_label": "Display name",
+        "email_input_label": "Email address",
+        "submit_button_label": "Claim",
+        "you_agree_to": "By applying you agree to our",
+        "privacy_policy": "Privacy Policy",
+        "errors": {
+            "existing_email": "Email already registered",
+            "wrong_code": "Wrong secret code",
+            "used_code": "Code already used"
+        }
+    },
+    "tutorial": {
+        "step_one": {
+            "line_one": "To get started, log in via your",
+            "line_two": "social accounts",
+            "line_three": "or via the official",
+            "line_four": "To get started, log in via your social accounts or via the official",
+            "line_five": "wallet and connect it to World of V"
+        },
+        "step_two": "Claim now by entering your full name, email and adding the secret code",
+        "step_three": "You're now ready to claim your Free NFT! Click Submit on the form and sign the transaction through your wallet",
+        "step_four": {
+            "line_one": "View your FREE NFT by clicking on the Collected tab in your",
+            "line_two": "World of V profile"
+        }
+    }
+}

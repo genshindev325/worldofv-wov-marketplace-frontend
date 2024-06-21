@@ -1,0 +1,22 @@
+schema: ${NEXT_PUBLIC_GRAPHQL_API_BASE_URL}
+
+documents: "./src/**/*.{ts,tsx}"
+
+generates:
+    "src/generated/graphql.ts":
+        plugins:
+            - typescript
+            - typescript-operations
+            - typescript-graphql-request
+        config:
+            onlyOperationTypes: true
+            operationResultSuffix: Result
+            scalars:
+                DateTime: string
+                Decimal: string
+                JSON: any
+                Upload: File
+
+hooks:
+    afterOneFileWrite:
+        - ./node_modules/.bin/prettier --write src/generated/graphql.ts

@@ -1,0 +1,104 @@
+{
+    "ignore": {
+        "@hookform/resolvers": {
+            "reason": "Breaking change.",
+            "versions": ">2"
+        },
+        "@typeform/embed": {
+            "reason": "Breaking change.",
+            "versions": ">1"
+        },
+        "@types/node": {
+            "reason": "Breaking change.",
+            "versions": ">16"
+        },
+        "@types/react": {
+            "reason": "Breaking change.",
+            "versions": ">17"
+        },
+        "@types/react-dom": {
+            "reason": "Breaking change.",
+            "versions": ">17"
+        },
+        "@web3auth/base": {
+            "reason": "Breaks Sync1.",
+            "versions": ">4"
+        },
+        "@web3auth/openlogin-adapter": {
+            "reason": "Breaks Sync1.",
+            "versions": ">4"
+        },
+        "eslint": {
+            "reason": "Breaking change.",
+            "versions": ">7"
+        },
+        "eslint-config-next": {
+            "reason": "Breaking change.",
+            "versions": ">12"
+        },
+        "graphql": {
+            "reason": "Breaking change.",
+            "versions": ">15"
+        },
+        "graphql-request": {
+            "reason": "Breaking change.",
+            "versions": ">4"
+        },
+        "linkify-react": {
+            "reason": "Breaking change.",
+            "versions": ">3"
+        },
+        "linkifyjs": {
+            "reason": "Breaking change.",
+            "versions": ">3"
+        },
+        "msw": {
+            "reason": "Breaking change.",
+            "versions": ">0.49.3"
+        },
+        "multiformats": {
+            "reason": "Breaking change.",
+            "versions": ">9"
+        },
+        "next": {
+            "reason": "Breaking change.",
+            "versions": ">12"
+        },
+        "next-query-params": {
+            "reason": "Breaking change.",
+            "versions": ">3"
+        },
+        "rc-slider": {
+            "reason": "Breaking change.",
+            "versions": ">9"
+        },
+        "react": {
+            "reason": "Breaking change.",
+            "versions": ">17"
+        },
+        "react-dom": {
+            "reason": "Breaking change.",
+            "versions": ">17"
+        },
+        "react-toastify": {
+            "reason": "Breaking change.",
+            "versions": ">8"
+        },
+        "swiper": {
+            "reason": "Breaking change.",
+            "versions": ">7"
+        },
+        "swr": {
+            "reason": "Breaking change.",
+            "versions": ">1"
+        },
+        "typescript": {
+            "reason": "Breaking change.",
+            "versions": ">4"
+        },
+        "yup": {
+            "reason": "Breaking change.",
+            "versions": ">0.32.11"
+        }
+    }
+}

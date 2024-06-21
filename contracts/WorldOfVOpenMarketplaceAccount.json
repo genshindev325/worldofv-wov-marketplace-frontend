@@ -1,0 +1,67 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "accountName",
+                "type": "string"
+            }
+        ],
+        "name": "accountNameExist",
+        "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "ipfsMetadata",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "ipfsFileHash",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "accountName",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "profileId",
+                "type": "uint256"
+            }
+        ],
+        "name": "updateAccount",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "ipfsMetadata",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "ipfsFileHash",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "accountName",
+                "type": "string"
+            },
+            { "internalType": "uint8", "name": "accountType", "type": "uint8" }
+        ],
+        "name": "registerAccount",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

@@ -1,0 +1,16 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { UserItem } from "./UserItem";
+import { useMockUser } from "../../../mocks/useMockUser";
+
+// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+export default {
+    title: "components/header/UserItem",
+    component: UserItem,
+    argTypes: {},
+} as ComponentMeta<typeof UserItem>;
+
+export const Default: ComponentStory<typeof UserItem> = (args) => {
+    useMockUser();
+    return <UserItem />;
+};
